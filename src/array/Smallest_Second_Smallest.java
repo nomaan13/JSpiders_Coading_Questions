@@ -1,4 +1,4 @@
-//WAJP to print the smallest and second-smallest element of the array
+//WAJP to print the smallest and Second-Smallest element of a Array?
 package array;
 import java.util.Scanner;
 public class Smallest_Second_Smallest {
