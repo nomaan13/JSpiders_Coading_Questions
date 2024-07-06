@@ -11,7 +11,7 @@ public class User_Input {
             System.out.print("Enter the " + (i+1) + "st elements:" );
             x[i]= sc.nextInt();
         }
-        System.out.print("All elements are: " );
+        System.out.print("All elements are : " );
         for (int n:x){
             System.out.print(n+" ");
 
