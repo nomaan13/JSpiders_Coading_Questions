@@ -10,7 +10,9 @@ public class Frequency_of_Each_Element {
             for (int j=i+1;j<=n;j++){
                 if (a[i]==a[j]){
                     count++;
+                    int temp=a[j];
                     a[j]=a[n];
+                    a[n]=temp;
                     n--;
                     j--;
                 }
