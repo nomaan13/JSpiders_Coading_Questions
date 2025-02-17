@@ -19,6 +19,11 @@ public class Driver {
         s1.add(new Student(123,"John","BCA"));
         s1.add(new Student(112,"Beckham","BVoc"));
         s1.add(new Student(161,"Paul","MCA"));
+        s.setId(122);
+        s.setName("Bill");
+        s.setCourse("MCom");
+
+        s1.add(s);
 
 
         System.out.println(s1);
@@ -32,5 +37,6 @@ public class Driver {
 
         Collections.sort(s1,new SortByCourse());
         System.out.println(s1);
+
     }
 }
